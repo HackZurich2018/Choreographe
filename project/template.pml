@@ -27,6 +27,8 @@
         <File name="jquery.easing.1.3" src="html/js/jquery.easing.1.3.js" />
         <File name="golf" src="bh_showhiddentalents/golf.ogg" />
         <File name="golf" src="storyboard/golf.ogg" />
+        <File name="rock" src="html/rock.m4a" />
+        <File name="rock" src="html/rock.mp3" />
     </Resources>
     <Topics>
         <Topic name="dlg_welcome_enu" src="dlg_welcome/dlg_welcome_enu.top" topicName="dlg_welcome" language="en_US" />
