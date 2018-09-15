@@ -1,5 +1,9 @@
 {
   "editor.formatOnSave": true,
   "prettier.eslintIntegration": true,
-  "eslint.enable": true
+  "eslint.enable": true,
+  "html.format.endWithNewline": true,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": true
 }
