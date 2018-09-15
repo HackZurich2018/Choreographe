@@ -13,6 +13,7 @@
     </BehaviorDescriptions>
     <Dialogs>
         <Dialog name="dlg_welcome" src="dlg_welcome/dlg_welcome.dlg" />
+        <Dialog name="ExampleDialog" src="bh_greeting/ExampleDialog/ExampleDialog.dlg" />
     </Dialogs>
     <Resources>
         <File name="index" src="html/index.html" />
@@ -28,6 +29,7 @@
     </Resources>
     <Topics>
         <Topic name="dlg_welcome_enu" src="dlg_welcome/dlg_welcome_enu.top" topicName="dlg_welcome" language="en_US" />
+        <Topic name="ExampleDialog_enu" src="bh_greeting/ExampleDialog/ExampleDialog_enu.top" topicName="ExampleDialog" language="en_US" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="en_US">
