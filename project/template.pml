@@ -23,6 +23,7 @@
         <File name="Enu_Ono_Laugh_Happy_2_pitch_115" src="sounds/Enu_Ono_Laugh_Happy_2_pitch_115.ogg" />
         <File name="jquery.color.plus-names-2.1.2.min" src="html/js/jquery.color.plus-names-2.1.2.min.js" />
         <File name="jquery.easing.1.3" src="html/js/jquery.easing.1.3.js" />
+        <File name="golf" src="bh_showhiddentalents/golf.ogg" />
     </Resources>
     <Topics>
         <Topic name="dlg_welcome_enu" src="dlg_welcome/dlg_welcome_enu.top" topicName="dlg_welcome" language="en_US" />
