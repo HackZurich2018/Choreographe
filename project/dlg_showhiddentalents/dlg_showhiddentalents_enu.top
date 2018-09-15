@@ -5,11 +5,14 @@ language: enu
 #concept:(hello) [hello hi hey "good morning" greetings]
 
 # Catching inputs and triggering outputs
-u:(e:onStart) ^nextProposal $onStopped=1
+u:(e:onStart) ^nextProposal
 
-proposal: ^empty
-    u1:(yes) $onStopped=1
-    u1:(no) $onStopped=1
+proposal: Great, I think I know you now. You are interested in old people, but did you know that you also have talents to be a computer scientist?
+    u1:(yes) ^nextProposal
+    u1:(no) ^nextProposal
+    u1:(no, what is it?) ^nextProposal
+
+proposal: Let me show you how awesome this is! $onStopped=1
 
 
 # Replying to speech

@@ -23,7 +23,6 @@
         <File name="main" src="html/css/main.css" />
         <File name="jquery.min" src="html/js/jquery.min.js" />
         <File name="main" src="html/js/main.js" />
-        <File name="robotutils" src="html/js/robotutils.js" />
         <File name="Enu_Ono_Laugh_Happy_2_pitch_115" src="sounds/Enu_Ono_Laugh_Happy_2_pitch_115.ogg" />
         <File name="jquery.color.plus-names-2.1.2.min" src="html/js/jquery.color.plus-names-2.1.2.min.js" />
         <File name="jquery.easing.1.3" src="html/js/jquery.easing.1.3.js" />
@@ -32,13 +31,17 @@
         <File name="rock" src="html/rock.m4a" />
         <File name="rock" src="html/rock.mp3" />
         <File name="video" src="html/video.mp4" />
+        <File name="krankenpflege1" src="html/images/krankenpflege1.jpg" />
+        <File name="krankenpflege2" src="html/images/krankenpflege2.jpg" />
+        <File name="krankenpflege3" src="html/images/krankenpflege3.jpg" />
+        <File name="quiz" src="html/quiz.gif" />
     </Resources>
     <Topics>
         <Topic name="dlg_welcome_enu" src="dlg_welcome/dlg_welcome_enu.top" topicName="dlg_welcome" language="en_US" />
         <Topic name="yes-or-no_enu" src="yes-or-no/yes-or-no_enu.top" topicName="yes-or-no" language="en_US" />
         <Topic name="dlg_get_interests_enu" src="dlg_get_interests/dlg_get_interests_enu.top" topicName="dlg_get_interests" language="en_US" />
-        <Topic name="dlg_showhiddentalents_enu" src="dlg_showhiddentalents/dlg_showhiddentalents_enu.top" topicName="dlg_get_interests" language="en_US" />
-        <Topic name="dlg_ending_enu" src="dlg_ending/dlg_ending_enu.top" topicName="dlg_get_interests" language="en_US" />
+        <Topic name="dlg_showhiddentalents_enu" src="dlg_showhiddentalents/dlg_showhiddentalents_enu.top" topicName="dlg_showhiddentalents" language="en_US" />
+        <Topic name="dlg_ending_enu" src="dlg_ending/dlg_ending_enu.top" topicName="dlg_ending" language="en_US" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="en_US">
