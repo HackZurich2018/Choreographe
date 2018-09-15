@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="template-app" version="0.0.0">
+ <names>
+  <name lang="en_US">Template</name>
+ </names>
+ <supportedLanguages>
+  <language>en_US</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="zzz_bak_start_template">
+   <nature>interactive</nature>
+   <loadingResponses>
+    <sentence lang="en_US">Ok, I will show you my example app</sentence>
+   </loadingResponses>
+   <autonomous>
+    <condition purpose="launchTrigger"><![CDATA[    ]]></condition>
+   </autonomous>
+   <permissions>
+    <canRunOnPod/>
+   </permissions>
+  </behaviorContent>
+  <behaviorContent path="animations/little_laugh">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="bh_greeting">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="storyboard">
+   <nature>interactive</nature>
+   <triggerSentences>
+    <sentence lang="en_US">start the app</sentence>
+   </triggerSentences>
+   <loadingResponses>
+    <sentence lang="en_US">Yay, this will be fun!</sentence>
+   </loadingResponses>
+   <autonomous>
+    <condition purpose="launchTrigger"><![CDATA[bang('FrontTactilTouched') && bang('MiddleTactilTouched') && bang('RearTactilTouched')]]></condition>
+   </autonomous>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="bh_getskills">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="bh_ending">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="bh_getinterests">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="bh_showhiddentalents">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

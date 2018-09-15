@@ -2,8 +2,14 @@
 <Package name="template" format_version="4">
     <Manifest src="manifest.xml" />
     <BehaviorDescriptions>
-        <BehaviorDescription name="behavior" src="start_template" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="zzz_bak_start_template" xar="behavior.xar" />
         <BehaviorDescription name="behavior" src="animations/little_laugh" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="bh_greeting" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="storyboard" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="bh_getskills" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="bh_ending" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="bh_getinterests" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="bh_showhiddentalents" xar="behavior.xar" />
     </BehaviorDescriptions>
     <Dialogs>
         <Dialog name="dlg_welcome" src="dlg_welcome/dlg_welcome.dlg" />
