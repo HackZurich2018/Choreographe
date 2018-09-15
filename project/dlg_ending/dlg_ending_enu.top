@@ -1,0 +1,16 @@
+topic: ~dlg_get_interests()
+language: enu
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+
+# Catching inputs and triggering outputs
+u:(e:onStart) ^nextProposal $onStopped=1
+
+proposal: ^empty
+    u1:(yes) $onStopped=1
+    u1:(no) $onStopped=1
+
+
+# Replying to speech
+#u:(~hello) ~hello
