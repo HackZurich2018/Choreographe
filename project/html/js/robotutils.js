@@ -95,28 +95,29 @@ class RobotUtilsCls {
     );
   }
 
-  /* RobotUtils.subscribeToALMemoryEvent(event, eventCallback, subscribeDoneCallback)
-     *
-     * connects a callback to an ALMemory event. Returns a MemoryEventSubscription.
-     *
-     * This is just syntactic sugar over calls to the ALMemory service, which you can
-     * do yourself if you want finer control.
-     */
-  subscribeToALMemoryEvent(event, eventCallback, subscribeDoneCallback) {
-    const evt = new MemoryEventSubscription(event);
+  /**
+   *  RobotUtils.subscribeToALMemoryEvent(event, eventCallback, subscribeDoneCallback)
+   *
+   * connects a callback to an ALMemory event. Returns a MemoryEventSubscription.
+   *
+   * This is just syntactic sugar over calls to the ALMemory service, which you can
+   * do yourself if you want finer control.
+   */
+  subscribeToALMemoryEvent(eventName, eventCallback, subscribeDoneCallback) {
+    const subscription = new MemoryEventSubscription(eventName);
     this.onServices(ALMemory => {
-      ALMemory.subscriber(event).then(
-        sub => {
-          evt.setSubscriber(sub);
-          sub.signal.connect(eventCallback).then(id => {
-            evt.setId(id);
+      ALMemory.subscriber(eventName).then(
+        evt => {
+          subscription.setSubscriber(evt);
+          evt.signal.connect(eventCallback).then(id => {
+            subscription.setId(id);
             if (subscribeDoneCallback) subscribeDoneCallback(id);
           });
         },
         msg => this.onALMemoryError(msg)
       );
     });
-    return evt;
+    return subscription;
   }
 
   /**
