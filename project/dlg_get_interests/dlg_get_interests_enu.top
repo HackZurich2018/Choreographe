@@ -7,7 +7,7 @@ language: enu
 # Catching inputs and triggering outputs
 u:(e:onStart) ^nextProposal $onStopped=1
 
-proposal: ^empty
+proposal: Do you like these?
     u1:(yes) $onStopped=1
     u1:(no) $onStopped=1
 
