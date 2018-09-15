@@ -1,0 +1,15 @@
+topic: ~yes-or-no()
+language: enu
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+
+# Catching inputs and triggering outputs
+u:(e:onStart) ^nextProposal
+
+proposal: ^start(animations/Stand/Emotions/Neutral/AskForAttention_1) Hi, do you want to talk about your talents? ^wait(animations/Stand/Emotions/Neutral/AskForAttention_1)
+    u1:(yes) ^start(animations/Stand/Emotions/Positive/Excited_1) Yay! ^wait(animations/Stand/Emotions/Positive/Excited_1) $yes=1
+    u1:(no) ^start(animations/Stand/Emotions/Negative/Disappointed_1) ^rand["Oh no!" "What a pitty!"] ^wait(animations/Stand/Emotions/Negative/Disappointed_1) $no=1
+
+# Replying to speech
+#u:(~hello) ~hello

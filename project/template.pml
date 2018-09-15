@@ -13,6 +13,8 @@
     </BehaviorDescriptions>
     <Dialogs>
         <Dialog name="dlg_welcome" src="dlg_welcome/dlg_welcome.dlg" />
+        <Dialog name="yes-or-no" src="yes-or-no/yes-or-no.dlg" />
+        <Dialog name="dlg_get_interests" src="dlg_get_interests/dlg_get_interests.dlg" />
     </Dialogs>
     <Resources>
         <File name="index" src="html/index.html" />
@@ -28,9 +30,8 @@
     </Resources>
     <Topics>
         <Topic name="dlg_welcome_enu" src="dlg_welcome/dlg_welcome_enu.top" topicName="dlg_welcome" language="en_US" />
+        <Topic name="yes-or-no_enu" src="yes-or-no/yes-or-no_enu.top" topicName="yes-or-no" language="en_US" />
+        <Topic name="dlg_get_interests_enu" src="dlg_get_interests/dlg_get_interests_enu.top" topicName="dlg_get_interests" language="en_US" />
     </Topics>
     <IgnoredPaths />
-    <Translations auto-fill="en_US">
-        <Translation name="translation_en_US" src="translations/translation_en_US.ts" language="en_US" />
-    </Translations>
 </Package>
