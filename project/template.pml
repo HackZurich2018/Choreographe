@@ -31,10 +31,20 @@
         <File name="rock" src="html/rock.m4a" />
         <File name="rock" src="html/rock.mp3" />
         <File name="video" src="html/video.mp4" />
-        <File name="krankenpflege1" src="html/images/krankenpflege1.jpg" />
-        <File name="krankenpflege2" src="html/images/krankenpflege2.jpg" />
-        <File name="krankenpflege3" src="html/images/krankenpflege3.jpg" />
         <File name="quiz" src="html/quiz.gif" />
+        <File name="interests" src="html/interests.html" />
+        <File name="hammer.min" src="html/js/hammer.min.js" />
+        <File name="interests" src="html/js/interests.js" />
+        <File name="system-production" src="html/js/system-production.js" />
+        <File name="system" src="html/js/system.js" />
+        <File name="1" src="html/images/1.jpg" />
+        <File name="2" src="html/images/2.jpg" />
+        <File name="3" src="html/images/3.jpg" />
+        <File name="4" src="html/images/4.jpg" />
+        <File name="5" src="html/images/5.jpg" />
+        <File name="6" src="html/images/6.jpg" />
+        <File name="7" src="html/images/7.jpg" />
+        <File name="8" src="html/images/8.jpg" />
     </Resources>
     <Topics>
         <Topic name="dlg_welcome_enu" src="dlg_welcome/dlg_welcome_enu.top" topicName="dlg_welcome" language="en_US" />

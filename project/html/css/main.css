@@ -1,14 +1,35 @@
 /* Custom page CSS
 -------------------------------------------------- */
+body {
+  margin: 0;
+  padding: 0;
+}
 * {
-   -webkit-user-select: none;
-   box-sizing: border-box;
-   font-family: 'Open Sans';
+  -webkit-user-select: none;
+  box-sizing: border-box;
+  font-family: 'Open Sans';
 }
 
-#touch_me{
-    text-align: center;
-    height: 580px;
-    line-height: 580px;
-    font-size: 70px;
+#touch_me {
+  text-align: center;
+  height: 580px;
+  line-height: 580px;
+  font-size: 70px;
+}
+
+.interest-images {
+  position: absolute;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.interest-image {
+  margin: 10px;
+}
+
+.interest-image img {
+  max-width: 350px;
+  cursor: pointer;
 }
