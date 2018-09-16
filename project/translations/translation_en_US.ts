@@ -13,19 +13,28 @@
     <context>
         <name>bh_getinterests/behavior.xar:/Animated Say</name>
         <message>
-            <location filename="bh_getinterests/behavior.xar" line="0"/>
             <source>Well done! Thank you for playing! Now let’s look at some pictures together.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Well done! Thank you for playing! Now let’s look at some pictures together.</translation>
+            <translation type="obsolete">Well done! Thank you for playing! Now let’s look at some pictures together.</translation>
+        </message>
+        <message>
+            <source>Well done! Thank you for playing! Now let’s look at some pictures together, and you swipe left or right.</source>
+            <comment>Text</comment>
+            <translation type="obsolete">Well done! Thank you for playing! Now let’s look at some pictures together, and you swipe left or right.</translation>
+        </message>
+        <message>
+            <location filename="bh_getinterests/behavior.xar" line="0"/>
+            <source>Well done! Thank you for playing! Now let’s look at some pictures together, and you swipe left if you like it, and right if you don't like it.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Well done! Thank you for playing! Now let’s look at some pictures together, and you swipe left if you like it, and right if you don't like it.</translation>
         </message>
     </context>
     <context>
         <name>bh_getinterests/behavior.xar:/Animated Say (1)</name>
         <message>
-            <location filename="bh_getinterests/behavior.xar" line="0"/>
             <source>Do you like these?</source>
             <comment>Text</comment>
-            <translation type="unfinished">Do you like these?</translation>
+            <translation type="obsolete">Do you like these?</translation>
         </message>
     </context>
     <context>
