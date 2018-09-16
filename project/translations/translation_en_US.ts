@@ -73,4 +73,18 @@
             <translation type="unfinished">Let me show you how awesome this is!</translation>
         </message>
     </context>
+    <context>
+        <name>storyboard/behavior.xar:/Say</name>
+        <message>
+            <source>Hello</source>
+            <comment>Text</comment>
+            <translation type="vanished">Hello</translation>
+        </message>
+        <message>
+            <location filename="storyboard/behavior.xar" line="0"/>
+            <source>Yay, this will be fun!</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Yay, this will be fun!</translation>
+        </message>
+    </context>
 </TS>

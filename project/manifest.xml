@@ -12,6 +12,7 @@
  <contents>
   <behaviorContent path="zzz_bak_start_template">
    <nature>interactive</nature>
+   <triggerSentences/>
    <loadingResponses>
     <sentence lang="en_US">Ok, I will show you my example app</sentence>
    </loadingResponses>
@@ -35,9 +36,7 @@
    <triggerSentences>
     <sentence lang="en_US">start the app</sentence>
    </triggerSentences>
-   <loadingResponses>
-    <sentence lang="en_US">Yay, this will be fun!</sentence>
-   </loadingResponses>
+   <loadingResponses/>
    <autonomous>
     <condition purpose="launchTrigger"><![CDATA[bang('FrontTactilTouched') && bang('MiddleTactilTouched') && bang('RearTactilTouched')]]></condition>
    </autonomous>
@@ -53,6 +52,9 @@
   </behaviorContent>
   <behaviorContent path="bh_getinterests">
    <nature>interactive</nature>
+   <triggerSentences/>
+   <loadingResponses/>
+   <autonomous/>
    <permissions/>
   </behaviorContent>
   <behaviorContent path="bh_showhiddentalents">
