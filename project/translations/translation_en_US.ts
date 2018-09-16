@@ -23,10 +23,15 @@
             <translation type="obsolete">Well done! Thank you for playing! Now let’s look at some pictures together, and you swipe left or right.</translation>
         </message>
         <message>
-            <location filename="bh_getinterests/behavior.xar" line="0"/>
             <source>Well done! Thank you for playing! Now let’s look at some pictures together, and you swipe left if you like it, and right if you don't like it.</source>
             <comment>Text</comment>
-            <translation type="unfinished">Well done! Thank you for playing! Now let’s look at some pictures together, and you swipe left if you like it, and right if you don't like it.</translation>
+            <translation type="obsolete">Well done! Thank you for playing! Now let’s look at some pictures together, and you swipe left if you like it, and right if you don't like it.</translation>
+        </message>
+        <message>
+            <location filename="bh_getinterests/behavior.xar" line="0"/>
+            <source>Well done! Thank you for playing! Now let’s look at some pictures together, and you swipe left if you don't like it, and right if you love it.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Well done! Thank you for playing! Now let’s look at some pictures together, and you swipe left if you don't like it, and right if you love it.</translation>
         </message>
     </context>
     <context>
