@@ -4,7 +4,7 @@
 
 ## Documentation
 
-We created this project with the help of ## www.avatarion.ch. They were able to support us also during the hack-time. We used the provided materials and played by using drag and drop, coding python and also javascript.
+We created this project with the help of www.avatarion.ch. They were able to support us also during the hack-time. We used the provided materials and played by using drag and drop, coding python and also javascript.
 Since an Android Tablet is used we were able to use JS ES 6 which gave us the possibility to use the newest Angular 6, für some parts of the application.
 
-IThe projectfile should be imported by selecting the the corresponding projectFile. It can then be used by everybody. Don't forget to connect to the Pedder first, and run then the application
+The projectfile should be imported by selecting the the corresponding projectFile. It can then be used by everybody. Don't forget to connect to the Pedder first, and run then the application
